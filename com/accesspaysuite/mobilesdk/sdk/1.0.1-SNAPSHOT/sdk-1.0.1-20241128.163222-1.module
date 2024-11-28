@@ -1,0 +1,467 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.accesspaysuite.mobilesdk",
+    "module": "sdk",
+    "version": "1.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.8.0-alpha10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "dev.icerock.moko",
+          "module": "parcelize",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "dev.tmapps",
+          "module": "konnection",
+          "version": {
+            "requires": "1.1.10"
+          }
+        },
+        {
+          "group": "io.github.alexzhirkevich",
+          "module": "cupertino-adaptive",
+          "version": {
+            "requires": "0.1.0-alpha04"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-compose",
+          "version": {
+            "requires": "3.0.0-alpha08"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-network-ktor",
+          "version": {
+            "requires": "3.0.0-alpha08"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-svg",
+          "version": {
+            "requires": "3.0.0-alpha08"
+          }
+        },
+        {
+          "group": "io.github.aakira",
+          "module": "napier",
+          "version": {
+            "requires": "2.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-metadata-1.0.1-SNAPSHOT.jar",
+          "url": "sdk-1.0.1-SNAPSHOT.jar",
+          "size": 120079,
+          "sha512": "cb53d31146c5d6ce8550d184736cb8bbcf0fbbcad3e4e22fd0698811ff2d24bf91d11408ad5eda2f7d730573d5dfa36cf3c2d75d5017942135dae94cfcff6e54",
+          "sha256": "4d7c1f726ae9d0f9031b3c4f1123a88f54a5d060dc52a344e75f25bc624c4dc9",
+          "sha1": "2d97259b0eca5683208a6ee0bbb6b29af0027be9",
+          "md5": "9ded570facc41b73e6768791c3a1714f"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "sdk-kotlin-1.0.1-SNAPSHOT-sources.jar",
+          "url": "sdk-1.0.1-SNAPSHOT-sources.jar",
+          "size": 147418,
+          "sha512": "214d66a089a4c977699dade826d3c535267cd60252672b5f2fbea03ae4a721210d540c2d7e9fb8abfa2ede65767e244563ee6a3895d737bf951bb5f0433f4cec",
+          "sha256": "8a0570080f96aa9cb211ae1545b9c836ba2c67c22f610b7d5297d35a5b757cca",
+          "sha1": "4cc34f95166c8d677b27b914202dcd4a3e27c916",
+          "md5": "4ba3a66271a03f815c3458d1ef86a1d3"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../sdk-android/1.0.1-SNAPSHOT/sdk-android-1.0.1-SNAPSHOT.module",
+        "group": "com.accesspaysuite.mobilesdk",
+        "module": "sdk-android",
+        "version": "1.0.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../sdk-android/1.0.1-SNAPSHOT/sdk-android-1.0.1-SNAPSHOT.module",
+        "group": "com.accesspaysuite.mobilesdk",
+        "module": "sdk-android",
+        "version": "1.0.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../sdk-android/1.0.1-SNAPSHOT/sdk-android-1.0.1-SNAPSHOT.module",
+        "group": "com.accesspaysuite.mobilesdk",
+        "module": "sdk-android",
+        "version": "1.0.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sdk-iosarm64/1.0.1-SNAPSHOT/sdk-iosarm64-1.0.1-SNAPSHOT.module",
+        "group": "com.accesspaysuite.mobilesdk",
+        "module": "sdk-iosarm64",
+        "version": "1.0.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sdk-iosarm64/1.0.1-SNAPSHOT/sdk-iosarm64-1.0.1-SNAPSHOT.module",
+        "group": "com.accesspaysuite.mobilesdk",
+        "module": "sdk-iosarm64",
+        "version": "1.0.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sdk-iosarm64/1.0.1-SNAPSHOT/sdk-iosarm64-1.0.1-SNAPSHOT.module",
+        "group": "com.accesspaysuite.mobilesdk",
+        "module": "sdk-iosarm64",
+        "version": "1.0.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sdk-iosarm64/1.0.1-SNAPSHOT/sdk-iosarm64-1.0.1-SNAPSHOT.module",
+        "group": "com.accesspaysuite.mobilesdk",
+        "module": "sdk-iosarm64",
+        "version": "1.0.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sdk-iossimulatorarm64/1.0.1-SNAPSHOT/sdk-iossimulatorarm64-1.0.1-SNAPSHOT.module",
+        "group": "com.accesspaysuite.mobilesdk",
+        "module": "sdk-iossimulatorarm64",
+        "version": "1.0.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sdk-iossimulatorarm64/1.0.1-SNAPSHOT/sdk-iossimulatorarm64-1.0.1-SNAPSHOT.module",
+        "group": "com.accesspaysuite.mobilesdk",
+        "module": "sdk-iossimulatorarm64",
+        "version": "1.0.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sdk-iossimulatorarm64/1.0.1-SNAPSHOT/sdk-iossimulatorarm64-1.0.1-SNAPSHOT.module",
+        "group": "com.accesspaysuite.mobilesdk",
+        "module": "sdk-iossimulatorarm64",
+        "version": "1.0.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sdk-iossimulatorarm64/1.0.1-SNAPSHOT/sdk-iossimulatorarm64-1.0.1-SNAPSHOT.module",
+        "group": "com.accesspaysuite.mobilesdk",
+        "module": "sdk-iossimulatorarm64",
+        "version": "1.0.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sdk-iosx64/1.0.1-SNAPSHOT/sdk-iosx64-1.0.1-SNAPSHOT.module",
+        "group": "com.accesspaysuite.mobilesdk",
+        "module": "sdk-iosx64",
+        "version": "1.0.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sdk-iosx64/1.0.1-SNAPSHOT/sdk-iosx64-1.0.1-SNAPSHOT.module",
+        "group": "com.accesspaysuite.mobilesdk",
+        "module": "sdk-iosx64",
+        "version": "1.0.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sdk-iosx64/1.0.1-SNAPSHOT/sdk-iosx64-1.0.1-SNAPSHOT.module",
+        "group": "com.accesspaysuite.mobilesdk",
+        "module": "sdk-iosx64",
+        "version": "1.0.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sdk-iosx64/1.0.1-SNAPSHOT/sdk-iosx64-1.0.1-SNAPSHOT.module",
+        "group": "com.accesspaysuite.mobilesdk",
+        "module": "sdk-iosx64",
+        "version": "1.0.1-SNAPSHOT"
+      }
+    }
+  ]
+}
