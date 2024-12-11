@@ -3,38 +3,38 @@
   <groupId>com.accesspaysuite</groupId>
   <artifactId>mobilesdk</artifactId>
   <versioning>
-    <lastUpdated>20241128163222</lastUpdated>
+    <lastUpdated>20241211140037</lastUpdated>
     <snapshot>
-      <timestamp>20241128.163222</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20241211.140037</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.1-20241211.140037-2</value>
+        <updated>20241211140037</updated>
+      </snapshotVersion>
+      <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0.1-20241128.163222-1</value>
-        <updated>20241128163222</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.0.1-20241128.163222-1</value>
-        <updated>20241128163222</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.0.1-20241128.163222-1</value>
-        <updated>20241128163222</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.0.1-20241128.163222-1</value>
-        <updated>20241128163222</updated>
+        <value>1.0.1-20241211.140037-2</value>
+        <updated>20241211140037</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.0.1-20241128.163222-1</value>
-        <updated>20241128163222</updated>
+        <value>1.0.1-20241211.140037-2</value>
+        <updated>20241211140037</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.1-20241211.140037-2</value>
+        <updated>20241211140037</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.0.1-20241211.140037-2</value>
+        <updated>20241211140037</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
