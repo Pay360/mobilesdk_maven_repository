@@ -178,11 +178,11 @@
         {
           "name": "sdk-iosX64Main-1.0.1.klib",
           "url": "sdk-iosx64-1.0.1.klib",
-          "size": 1067598,
-          "sha512": "7fd45394eb19aada33524c033625eb5456db7864c857294f1c818a58de24f2055c93e979d95a7cf2e7714ba177924f4188764147ad537df19c49315ae06dcbc3",
-          "sha256": "58a28286cba3384a2d8058fc9af34b898d8a74d633affddbe38230ab522d5180",
-          "sha1": "854cbd0cf9d2e26300c7efba445e44467dc5714d",
-          "md5": "15421b2cc4f38cf1b56ad60307b3952f"
+          "size": 1067873,
+          "sha512": "e1a0987c317000f6085680f597c8f2aea37aa1264a7d976a5ab050bb38e42f5794d9682e08dd43964bcd5f089b8a8180ecae4e2c87341394207d89130307db2f",
+          "sha256": "1fc7140df3abed5bec3e004193a72b9223296c42bda656664c2e5c981a65c616",
+          "sha1": "e39b0bad1d8835693575e93b042a2a362b593faa",
+          "md5": "983b314686569c4b201e2650dca770b1"
         }
       ]
     },
@@ -201,11 +201,11 @@
         {
           "name": "sdk-iosx64-1.0.1-sources.jar",
           "url": "sdk-iosx64-1.0.1-sources.jar",
-          "size": 151098,
-          "sha512": "11cfbe10379e36e8d61e65fa9ca7d69f6435e5cadcb8a274c17708ba46c7e8e13456db577f9a8b4eb672f7c37c898e2a73ff3d25700221cace816993416edf27",
-          "sha256": "f2109a7b19ee06b17bc15b3abab7c248920367907a13c464ddb5494c9e95fce1",
-          "sha1": "dcd4219e1dbf038e5f50ef79c6ef10aa1647f992",
-          "md5": "50d15b0ad256b704cb387c536dc388c1"
+          "size": 151386,
+          "sha512": "1fbc4af979aa4c4707607bccff7ee9792c642187413d9037e39d51b51000043672a9ad3198e49c96aeb4ff139fb7b231f2b36f5da4cfd43de0dd350c3b3e42e6",
+          "sha256": "5f653075f6dbdccd01c54980992768cd2d8f5f61dc819ba9943ad208041b2003",
+          "sha1": "bc21f0d2943289f0e20a763dd23048ca122a0540",
+          "md5": "df1a8135fcd7266e2933c2a1936b6d42"
         }
       ]
     },

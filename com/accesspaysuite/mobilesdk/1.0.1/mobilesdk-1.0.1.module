@@ -175,11 +175,11 @@
         {
           "name": "mobilesdk-1.0.1.jar",
           "url": "mobilesdk-1.0.1.jar",
-          "size": 120548,
-          "sha512": "d23937ed7d6824542389ad0a9a1e8502833d15b289d918b363db1d815f2c5f1437f455985d875092a8f550078394ba65c4858d9647d4d5657837bba3b6526fe0",
-          "sha256": "9d34d6a1343ca19bb58db751aab951651732ec236fb494d770d383ed44267200",
-          "sha1": "e9891ef1c1de7f4035550c75b28f9828d7d15a82",
-          "md5": "0d59b0540b831f598f45b1ff868305c0"
+          "size": 120657,
+          "sha512": "3e20819c165dd3a45f2f6749fac86cd2f34b21235c2d232f89cef7f5df5a044477cfd0b6b987c308f391215ae00b21dbe83518750ec3d3effde5a7d176e5308d",
+          "sha256": "925b8fe253b67c7700763a26b8f38f3ef59ab7504f76774e931a3839aba1b389",
+          "sha1": "e94c480a1cb13b515b8cb1a36407fa4115fdfda5",
+          "md5": "2020f2f84dba9336852adf408bcaca6f"
         }
       ]
     },
@@ -197,11 +197,11 @@
         {
           "name": "mobilesdk-1.0.1-sources.jar",
           "url": "mobilesdk-1.0.1-sources.jar",
-          "size": 149425,
-          "sha512": "0bfb70f39278540475520e11fe621a9df16ba7a8e9e5dc7f8eea713af2eacda3d4b98e58cfcff5745ccde0eb9898481624a9f7d230caef079f156bc13a77e38c",
-          "sha256": "94f61cc1853a9648fb4b8194d350258458e08e98af347306d0a07eed1f9daf5b",
-          "sha1": "58a63570cdea32204ade5b4714e0c4ee72f449aa",
-          "md5": "8db14dd3977fec321d1e1e9b47216d2c"
+          "size": 149713,
+          "sha512": "37508bdeee34cbb5dcc47b499e5b3f0504381080ef7d24be4306ac03f865c76b44bddd3da701dd945cf7129e0ae63fdf06431eb4c50be52042f811491eb36bc8",
+          "sha256": "5469e73c74859b36e63c6e94f779468b009c54a33f8cb1adcc6ec3136f78a019",
+          "sha1": "fbccd11b6a6fb558331521b4cfcdb04cadbe7e29",
+          "md5": "ab45fbdc3ba8d0b135e650727323dbca"
         }
       ]
     },
